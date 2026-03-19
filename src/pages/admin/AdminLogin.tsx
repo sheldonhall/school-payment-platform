@@ -127,7 +127,7 @@ export function AdminLogin() {
           </form>
         </div>
         <footer className="text-center text-white text-sm mt-8 opacity-90">
-          Concept Preview - School Payment Portal
+          School Payment Portal v1.0
         </footer>
       </div>
     </div>
