@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router";
 import {
   LayoutDashboard,
   FileText,
@@ -26,7 +26,6 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
     { path: "/admin/teachers", label: "Teachers", icon: GraduationCap },
     { path: "/admin/classes", label: "Classes", icon: School },
     { path: "/admin/testing", label: "Testing", icon: Microscope },
-    { path: "/admin/testing", label: "New thing", icon: Microscope },
   ];
 
   const isActive = (path: string) =>
